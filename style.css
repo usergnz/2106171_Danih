@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 50px auto;
+    margin-bottom: 20px;
+}
+.kotak{
+    width: 350px;
+    background-color: rgb(20, 177, 20);
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+lable, input {
+    display: block;
+}
+
+.form-input{
+    display: block;
+    border: none;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+}
+
+select{
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+#btn-kirim{
+    
+        background-color: rgb(59, 59, 59);
+        color: white;
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    
+}
+
+#btn-kirim:hover{
+    background-color: rgb(0, 238, 255);
+    color: black;
+}
